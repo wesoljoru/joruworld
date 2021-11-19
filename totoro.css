@@ -1,0 +1,144 @@
+
+.sexy{position:top:500px;}
+/*id적용*/
+
+/*로고 푸터*/
+#ce{position:relative;} 
+/*공지*/
+#notice{color: darkred; margin: 15px;}
+
+
+/*섹션
+#cn{margin:0 auto; max-width: 900px; display: flex; flex-direction: column; align-items: center;}
+.cm{max-width: 100%;} */
+
+
+/*class적용*/
+
+
+/*.cbod{text-align: center;} 메인제목-공지사항 섹션 클래스로 묶음 */
+.kk{color:darkgreen;}
+.bb{color:blue;}
+.tt{color: blueviolet;}
+
+/*이미지와 문단 융합*/
+.if{float:left;width: 11%; margin-right: 15px; margin-bottom: 15px;} 
+
+/*플로트 무시하는 명령어*/
+.cl{clear:both;} 
+
+/*네비게이션 박스만듬 현재 지움
+.nv{border:solid green; width: 250px;} */
+
+/*미디어쿼리
+
+.container{margin:0 auto; max-width: 1700px;}
+.testimg{max-width: 150px; height: 100px; padding: 10px; background-color: blue;}
+header{height: 150px;background-color: purple; display: flex; align-items: center; justify-content: center; color: white;}
+.main .container{display: flex; flex-direction: row;}
+aside{min-width: 150px; background-color: green; padding: 20px;}
+section{padding: 30px;}
+
+@media (max-width:700px) {.main .container {flex-direction: column;}}*/
+
+
+/*플렛박스 테스트
+.f{background-color: brown;
+    width: 640px; height: 50px; 
+    display: flex;
+    flex-direction:row; 
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-content: flex-start;}*/
+
+/*플렛 자식요소 테스트
+.ff{width: 50px;
+    height: 50px;
+    border:1px solid black;
+    font-size: 36px;
+    background-color: chartreuse; flex-grow: 1;}*/
+
+    /*.ff:nth-child(5){flex-basis:500px}
+    .ff:nth-child(2){flex-basis:600px}
+    .ff:nth-child(3){flex-basis:200px}*/
+
+    a{text-decoration: none;}
+a:link {color: rosybrown;}
+a:visited {color: rgb(139, 46, 134);}
+a:hover{color: slateblue;}
+a:active{background-color: springgreen;}
+    /*네비게이션 바*/
+.nvc{display: flex;
+     flex-direction: row;
+     width: 100%;
+     margin:0; padding:0;
+     background-color:forestgreen;
+     list-style-type: none;}
+
+     .nvi{padding:15px;
+          cursor: pointer;}
+
+          .nvi a{text-align: center; text-decoration: none; color: white;}
+          .nvi:nth-child(1){background-color:darkslategray;}
+          .nvi:hover{background-color: greenyellow;}
+
+/*배경이미지 적용 margin을0으로해야 여백없이 내비게이션 바가 바짝 붙음*/
+body{background-image: url("https://t1.daumcdn.net/cfile/tistory/275EC04558875BC90F");
+         background-repeat: no-repeat; 
+         background-attachment: scroll; 
+         background-position:top;
+         margin:0px;
+         width: 100vw; height: 100vh;
+         }
+
+/*트랜스폼,트랜지션         
+.awesome{width: 100px;height: 100px; animation:nono 5s ease 0s infinite  alternate;}
+/*.awesome:hover{transform: scale(8, 11); transition: all 1s ease .1s;}
+
+@keyframes nono {0%{background-color: red; transform:scale(1,1);} 알수없는 오류
+                25%{background-color:blue; transform:scale(3,1);} 
+                50%{background-color:green; transform:scale(3,3);} 
+                75%{background-color:purple; transform:scale(1,3);} 
+                100%{background-color:yellow; transform:scale(1,1);}*/
+
+/*폰트 모음
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Gugi', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif; */
+
+/*폰트*/
+h1{color:darkslategrey;}
+*{font-family:'Gugi','Black Han Sans','Do Hyeon','Nanum Pen Script','Noto Sans KR',cursive,sans-serif;}
+
+
+
+/*폰트 패밀리는 예시를 위해 주석처리(현재닫음)
+*{text-align:center; font-family:'이사만루체 Medium',fantasy,serif;}*/
+
+/*div 너비와높이 테스트
+div{color:white; background-color:darkcyan; max-width:300px; max-height:50px;}*/
+
+/*div border 테스트
+div{border-top-width: 5px; border-top-style: double; border-top-color: darkblue; border-bottom: 10px; border-bottom-style: solid; border-bottom-color: red;}*/
+
+/*div 박스 공부
+div{width:1000px; height: 562px;
+
+    font-size: 20pt; color: yellow;
+    
+    border: 20px solid red; *너비 스타일 색상
+    
+    padding: 30px; *이렇게하면 전체적용
+
+    box-sizing:border-box; *설정한 너비와높이값을 border까지 적용
+
+    margin: 0 auto;  *모든 요소 가운데 정렬
+
+    background-color: lawngreen;
+
+    background-clip: padding-box; *배경 규격 설정 현재설정 패딩박스까지만
+
+    background-image: url("https://w.namu.la/s/761969c58ee2eed02bd5653190cffa4abdc05a414ca9e2357beae450be053abb4c5e8ea793ffe0dac7fb7657648ff8f1b8d899a93256259e5701a74edc7f47c37154e5da5070144efd337088f038c01c3a4a5c3d9aa667448d4e29762bd784c8");}*/
+    
